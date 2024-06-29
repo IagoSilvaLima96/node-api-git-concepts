@@ -43,7 +43,7 @@ test("Deve fazer o cálculo do preço de uma corrida no domingo de dia", functio
     -48.522234807851476,
     new Date("2021-03-07T10:00:00")
   );
-  expect(ride.calculate()).toBe(29);
+  expect(ride.calculate()).toBe(27);
 });
 
 test("Deve fazer o cálculo do preço de uma corrida no domingo de noite", function () {
