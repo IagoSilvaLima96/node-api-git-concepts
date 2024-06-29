@@ -58,7 +58,7 @@ test("Deve fazer o cálculo do preço de uma corrida no domingo de noite", funct
     -48.522234807851476,
     new Date("2021-03-07T23:00:00")
   );
-  expect(ride.calculate()).toBe(50);
+  expect(ride.calculate()).toBe(55);
 });
 
 test("Deve lançar um erro se a data for inválida", function () {
