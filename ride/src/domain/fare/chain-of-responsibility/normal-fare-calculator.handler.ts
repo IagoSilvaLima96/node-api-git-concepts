@@ -2,7 +2,7 @@ import segment from "../../ride/segment";
 import { FareCalculatorHandler } from "./fare-calculator.handler";
 
 export class NormalFareCalculatorHandler extends FareCalculatorHandler {
-  TAX_FARE = 2.1;
+  TAX_FARE = 2.2;
   calculate(segment: segment): number {
     if (!segment.isOvernight() && !segment.isSunday()) {
       return this.TAX_FARE * segment.distance;
