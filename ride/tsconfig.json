@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+  "incremental": true,
+  "target": "es2021",
+  "experimentalDecorators": true,
+  "module": "commonjs",
+  "outDir": "./dist",
+  "strict": true,
+  "esModuleInterop": true
+  },
+  "include": [
+      "src",
+      "test"
+  ]
+}
