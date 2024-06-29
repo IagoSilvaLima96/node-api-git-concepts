@@ -15,6 +15,7 @@
   },
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/app.ts",
+    "test:unit": "jest --testPathPattern=test/unit",
     "build": "tsc"
   },
   "devDependencies": {
